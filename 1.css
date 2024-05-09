@@ -1,0 +1,14 @@
+.bg-netherlands-flag {
+    background: linear-gradient(to bottom, #f00, #fff, #0400ff);
+  }
+
+
+  h1 {
+    color: hsl(0, 0%, 0%); /* Black text */
+    font-size: 2.5rem; /* Larger font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds depth */
+    background: linear-gradient(to right, hwb(0 0% 100%), #000000); /* Red to blue gradient background */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Makes the text transparent to reveal the gradient */
+  }
